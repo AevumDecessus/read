@@ -7,18 +7,18 @@ dependencies = [
     "django>=6.0.7,<6.1",
     "psycopg[binary]>=3.2",
     "gunicorn>=23.0",
-    "django-environ>=0.12",
+    "django-environ>=0.14.0",
     "whitenoise>=6.12.0",
     "qrcode[pil]>=8.0",
 ]
 
 [project.optional-dependencies]
 dev = [
-    "coverage>=7.0",
+    "coverage>=7.15.2",
     "django-debug-toolbar>=5.0",
     "pytest>=9.1.1",
     "pytest-django>=4.9",
-    "ruff>=0.11",
+    "ruff>=0.16.0",
 ]
 
 [tool.ruff]
