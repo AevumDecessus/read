@@ -16,7 +16,7 @@ dependencies = [
 dev = [
     "coverage>=7.0",
     "django-debug-toolbar>=5.0",
-    "pytest>=8.0",
+    "pytest>=9.1.1",
     "pytest-django>=4.9",
     "ruff>=0.11",
 ]
