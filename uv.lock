@@ -139,7 +139,7 @@ requires-dist = [
     { name = "django-debug-toolbar", marker = "extra == 'dev'", specifier = ">=5.0" },
     { name = "django-environ", specifier = ">=0.14.0" },
     { name = "gunicorn", specifier = ">=23.0" },
-    { name = "psycopg", extras = ["binary"], specifier = ">=3.2" },
+    { name = "psycopg", extras = ["binary"], specifier = ">=3.3.4" },
     { name = "pytest", marker = "extra == 'dev'", specifier = ">=9.1.1" },
     { name = "pytest-django", marker = "extra == 'dev'", specifier = ">=4.9" },
     { name = "qrcode", extras = ["pil"], specifier = ">=8.0" },
