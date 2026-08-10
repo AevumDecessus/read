@@ -14,11 +14,11 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = [
-    "coverage>=7.15.3",
+    "coverage>=7.15.4",
     "django-debug-toolbar>=5.0",
     "pytest>=9.1.1",
     "pytest-django>=4.9",
-    "ruff>=0.16.1",
+    "ruff>=0.16.2",
 ]
 
 [tool.ruff]
