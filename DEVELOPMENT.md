@@ -190,14 +190,6 @@ docker compose logs -f web
 docker compose logs --tail=100 web
 ```
 
-### Django Debug Toolbar
-
-When `DEBUG=True`, the Debug Toolbar appears on all pages. Shows:
-- SQL queries and performance
-- Template rendering
-- Request/response headers
-- Cache usage
-
 ### Container Shell Access
 
 ```bash
